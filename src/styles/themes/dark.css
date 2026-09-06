@@ -1,0 +1,18 @@
+/**
+ * Dark theme tokens (SRS 24.2 — Light/Dark/System theme support).
+ * Applied via the `dark` class on <html>, toggled by ThemeProvider based on
+ * the user's saved preference or `prefers-color-scheme` when set to System.
+ */
+:root[data-theme='dark'] {
+  --color-saffron: 255 167 79;
+  --color-golden: 224 194 96;
+  --color-cream: 42 34 27;
+  --color-surface-light: 24 20 17;
+  --color-surface-dark: 18 15 13;
+  --color-sky-info: 96 165 250;
+  --color-success: 74 222 128;
+  --color-warning: 251 146 60;
+  --color-danger: 248 113 113;
+  --color-text-primary: 245 240 234;
+  --color-text-secondary: 191 178 165;
+}

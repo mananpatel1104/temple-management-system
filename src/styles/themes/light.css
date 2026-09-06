@@ -1,0 +1,18 @@
+/**
+ * Light theme tokens (SRS 24.2 — Light/Dark/System theme support).
+ * Values are R G B triplets (no commas) for Tailwind's `rgb(var(--x) / <alpha>)` syntax.
+ */
+:root,
+:root[data-theme='light'] {
+  --color-saffron: 255 153 51;
+  --color-golden: 212 175 55;
+  --color-cream: 255 248 240;
+  --color-surface-light: 255 255 255;
+  --color-surface-dark: 250 247 242;
+  --color-sky-info: 135 206 250;
+  --color-success: 34 197 94;
+  --color-warning: 249 115 22;
+  --color-danger: 239 68 68;
+  --color-text-primary: 43 33 24;
+  --color-text-secondary: 96 82 68;
+}

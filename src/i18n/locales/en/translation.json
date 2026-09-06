@@ -1,0 +1,390 @@
+{
+  "app": {
+    "name": "Shree Swaminarayan Mandir",
+    "greeting": "Jay Swaminarayan"
+  },
+  "common": {
+    "loading": "Loading...",
+    "offline": "You are offline",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "comingSoon": "This section is being prepared and will be available soon.",
+    "soon": "Soon",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "welcome": {
+    "message": "Welcome. Please select your preferred language to continue.",
+    "selectLanguage": "Select Language",
+    "continue": "Continue"
+  },
+  "nav": {
+    "main": "Main navigation",
+    "home": "Home",
+    "announcements": "Announcements",
+    "gallery": "Gallery",
+    "library": "Library",
+    "more": "More"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+  "settings": {
+    "changeLanguage": "Change Language",
+    "languageSectionHint": "More settings are coming soon.",
+    "account": "Account",
+    "editorLogin": "Editor Login",
+    "exitEditorMode": "Exit Editor Mode",
+    "changePin": "Change PIN",
+    "currentPinPrompt": "Enter current PIN",
+    "newPinPrompt": "Enter new PIN",
+    "logout": "Logout"
+  },
+  "registration": {
+    "title": "Welcome, Devotee",
+    "subtitle": "Please tell us your name to create your Member ID.",
+    "nameLabel": "Full Name",
+    "mobileLabel": "Mobile Number (optional)",
+    "mobileHint": "Used only as contact information. Never used for login.",
+    "preferredLanguageLabel": "Preferred Language",
+    "preferredLanguageHint": "This is the language you selected on the previous screen. You can change it anytime later from More > Change Language.",
+    "continue": "Continue",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "auth": {
+    "editorLoginTitle": "Editor Login",
+    "pinLabel": "PIN",
+    "login": "Login"
+  },
+  "memberManagement": {
+    "title": "Member Management",
+    "searchPlaceholder": "Search by name, Member ID or mobile number",
+    "role": "Role",
+    "status": "Status",
+    "mobile": "Mobile Number",
+    "preferredLanguage": "Preferred Language",
+    "notProvided": "Not provided",
+    "activate": "Activate",
+    "lock": "Lock",
+    "suspend": "Suspend",
+    "resetPin": "Reset PIN",
+    "privateNotes": "Private Notes (visible only to you)",
+    "deleteMember": "Delete Member",
+    "confirmDelete": "Are you sure you want to delete this member? This cannot be undone.",
+    "roleChanged": "Role updated.",
+    "roleChangedPinRequired": "Role updated. Set an initial PIN for this editor below.",
+    "statusUpdated": "Status updated.",
+    "notesSaved": "Notes saved.",
+    "pinReset": "PIN reset successfully.",
+    "pinFormatError": "PIN must be 4 to 6 digits.",
+    "memberDeleted": "Member deleted."
+  },
+  "auditLog": {
+    "title": "Audit Log",
+    "searchPlaceholder": "Search by activity or name",
+    "search": "Search",
+    "empty": "No audit records found.",
+    "previousValue": "Before",
+    "newValue": "After"
+  },
+  "dashboard": {
+    "panchang": {
+      "title": "Today's Panchang",
+      "unavailable": "Panchang information will be available soon."
+    },
+    "darshan": {
+      "title": "Daily Darshan",
+      "unavailable": "Today's Darshan will be available soon."
+    },
+    "thal": {
+      "title": "Today's Thal",
+      "unavailable": "Thal information will be available soon.",
+      "updated": "Thal Updated"
+    },
+    "liveDarshan": {
+      "title": "Live Darshan",
+      "offlineStatus": "OFFLINE",
+      "liveStatus": "LIVE",
+      "unavailable": "Live Darshan Currently Unavailable"
+    },
+    "festival": {
+      "title": "Festival Countdown",
+      "unavailable": "Festival information will be available soon.",
+      "daysRemaining": "days remaining"
+    },
+    "announcements": {
+      "empty": "No announcements yet.",
+      "viewAll": "View All"
+    },
+    "sabha": {
+      "title": "Upcoming Sabha",
+      "unavailable": "No Upcoming Sabha Scheduled"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "panchang": "Panchang",
+      "festivalCalendar": "Festival Calendar",
+      "contactTemple": "Contact Temple",
+      "qrDonation": "QR Donation"
+    }
+  },
+  "library": {
+    "subtitle": "Panchang, Nirnay, prayers and devotional resources in one place.",
+    "detail": {
+      "backToLibrary": "Back to Library"
+    },
+    "categories": {
+      "panchang": {
+        "title": "Official Vadtal Panchang",
+        "description": "Daily and monthly Panchang"
+      },
+      "nirnay": {
+        "title": "Official Vadtal Nirnay",
+        "description": "Official religious decisions and guidance"
+      },
+      "aarti": {
+        "title": "Aarti",
+        "description": "Aarti text, available offline"
+      },
+      "nityaNiyam": {
+        "title": "Nitya Niyam",
+        "description": "Daily religious routine, available offline"
+      },
+      "kirtans": {
+        "title": "Kirtans",
+        "description": "Devotional song lyrics"
+      },
+      "granths": {
+        "title": "Granths",
+        "description": "Vachanamrut, Shikshapatri and other texts"
+      },
+      "stotraPrarthana": {
+        "title": "Stotra & Prarthana",
+        "description": "Commonly recited prayers and stotras"
+      },
+      "ramKrishnaGovind": {
+        "title": "Ram Krishna Govind",
+        "description": "Ram Krishna Govind chant, available offline"
+      },
+      "janmangal": {
+        "title": "Janmangal",
+        "description": "Janmangal Stotra and Namavali, available offline"
+      }
+    }
+  },
+  "gallery": {
+    "subtitle": "Daily Darshan, festival, sabha and event photographs.",
+    "searchPlaceholder": "Search albums, festivals, captions...",
+    "searchResultsTitle": "Search Results",
+    "noSearchResults": "No matching albums or photos found.",
+    "categories": {
+      "dailyDarshan": {
+        "title": "Daily Darshan",
+        "description": "Today's temple Darshan photograph"
+      },
+      "festival": {
+        "title": "Festival Albums",
+        "description": "Janmashtami, Annakut and other festival photos"
+      },
+      "sabha": {
+        "title": "Sabha Albums",
+        "description": "Weekly Sabha and spiritual program photos"
+      },
+      "event": {
+        "title": "Special Events",
+        "description": "Seva, youth activities and other temple events"
+      }
+    },
+    "noAlbums": "No albums yet.",
+    "noPhotos": "No photographs in this album yet.",
+    "photoCountSuffix": "photos",
+    "backToGallery": "Back to Gallery",
+    "backToAlbums": "Back to Albums",
+    "uploadPhoto": "Upload Photo",
+    "createAlbum": "Create Album",
+    "albumNameLabel": "Album Name",
+    "albumDateLabel": "Date (optional)",
+    "captionLabel": "Caption (optional)",
+    "captionPlaceholder": "Add a caption...",
+    "chooseFile": "Choose Photo",
+    "uploading": "Uploading...",
+    "optimizingImage": "Optimizing image...",
+    "uploadSuccess": "Photo uploaded.",
+    "uploadFailed": "Upload Failed",
+    "retryUpload": "Retry Upload",
+    "deletePhoto": "Delete Photo",
+    "confirmDeletePhoto": "Delete this photo? This cannot be undone from this screen.",
+    "deleteAlbum": "Delete Album",
+    "confirmDeleteAlbum": "Delete this album? Photos already uploaded will no longer be shown.",
+    "renameAlbum": "Rename Album",
+    "archiveAlbum": "Archive Album",
+    "unarchiveAlbum": "Restore Album",
+    "manageAlbum": "Manage Album",
+    "albumArchivedNotice": "This album is archived and hidden from the normal Gallery browsing list.",
+    "confirmArchiveAlbum": "Archive this album? It will no longer appear in the normal Gallery browsing list.",
+    "confirmUnarchiveAlbum": "Restore this album to the normal Gallery browsing list?",
+    "offlineUploadUnavailable": "Internet connection required to upload photos.",
+    "offlineNewContentUnavailable": "Internet connection required to load new gallery content.",
+    "uploadedBy": "Uploaded by",
+    "close": "Close",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "previousPhoto": "Previous Photo",
+    "nextPhoto": "Next Photo",
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "fileTooLarge": "File exceeds the maximum upload size of 8 MB.",
+      "unsupportedFileType": "Only JPEG and PNG images are supported.",
+      "albumNameRequired": "Album name is required."
+    }
+  },
+  "announcements": {
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "festival": "Festival",
+      "mens": "Men's",
+      "ladies": "Ladies",
+      "volunteer": "Volunteer",
+      "emergency": "Emergency"
+    },
+    "priorities": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "archived": "Archived"
+    },
+    "tabs": {
+      "active": "Active",
+      "archived": "Archive"
+    },
+    "createAnnouncement": "New Announcement",
+    "editAnnouncement": "Edit Announcement",
+    "searchPlaceholder": "Search announcements",
+    "noSearchResults": "No announcements match your search.",
+    "empty": "No announcements yet.",
+    "offlineNotice": "showing previously viewed announcements. New announcements require internet.",
+    "backToAnnouncements": "Back to Announcements",
+    "postedBy": "Posted by",
+    "viewAttachment": "View Attachment",
+    "archive": "Archive",
+    "restore": "Restore",
+    "confirmArchive": "Archive this announcement?",
+    "confirmRestore": "Restore this announcement?",
+    "confirmDelete": "Delete this announcement? This cannot be undone from here.",
+    "fields": {
+      "category": "Category",
+      "title": "Title",
+      "description": "Description",
+      "priority": "Priority",
+      "visibilityScope": "Volunteer Group",
+      "visibilityScopePlaceholder": "e.g. Kitchen Seva Volunteers",
+      "publishAt": "Publish Date & Time",
+      "publishAtHint": "Leave as-is to publish immediately, or choose a future date/time to schedule.",
+      "expiryDate": "Expiry Date & Time (optional)",
+      "externalLink": "External Link (optional)",
+      "attachment": "Attachment (Image or PDF, optional)",
+      "attachmentHint": "JPEG, PNG, or PDF, up to 10 MB."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "titleRequired": "Title is required.",
+      "descriptionRequired": "Description is required.",
+      "notFound": "This announcement could not be found.",
+      "attachmentType": "Only JPEG, PNG, or PDF files are supported.",
+      "attachmentSize": "File exceeds the maximum upload size of 10 MB."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications yet.",
+    "offlineNotice": "showing previously loaded notifications. New notifications require internet.",
+    "bellAriaLabel": "Notifications",
+    "bellAriaLabelUnread": "Notifications, {count} unread",
+    "status": {
+      "read": "Read",
+      "unread": "Unread"
+    },
+    "errors": {
+      "generic": "Unable to load notifications. Please try again."
+    }
+  },
+  "liveDarshan": {
+    "title": "Live Darshan & Katha",
+    "watchLive": "Watch Live",
+    "darshan": {
+      "title": "Live Darshan",
+      "live": "LIVE",
+      "offline": "OFFLINE",
+      "unavailable": "Live Darshan is currently unavailable."
+    },
+    "katha": {
+      "title": "Live Katha",
+      "liveNow": "LIVE NOW",
+      "notInProgress": "No Katha is currently in progress.",
+      "fields": {
+        "title": "Katha Title",
+        "speaker": "Speaker",
+        "date": "Date",
+        "time": "Time"
+      }
+    },
+    "saturdayKatha": {
+      "title": "Saturday Katha Schedule",
+      "empty": "No Saturday Katha schedule has been set yet.",
+      "fields": {
+        "day": "Day",
+        "date": "Date",
+        "time": "Time",
+        "venue": "Venue"
+      }
+    },
+    "archive": {
+      "title": "Katha Archive",
+      "empty": "No Katha recordings are available yet.",
+      "watch": "Watch",
+      "remove": "Remove",
+      "confirmRemove": "Remove this Katha Archive entry? This cannot be undone.",
+      "fields": {
+        "title": "Title",
+        "date": "Date",
+        "speaker": "Speaker (Optional)",
+        "thumbnail": "Thumbnail URL (Optional)",
+        "watchUrl": "Watch Link"
+      }
+    },
+    "admin": {
+      "title": "Administrator Configuration",
+      "configureDarshan": "Configure Live Darshan Stream",
+      "configureKatha": "Configure Live Katha Stream",
+      "editSaturdaySchedule": "Edit Saturday Katha Schedule",
+      "addArchiveEntry": "Add Katha Archive Entry",
+      "saved": "Saved successfully.",
+      "fields": {
+        "streamUrl": "Stream URL",
+        "markLive": "Mark as LIVE"
+      },
+      "errors": {
+        "titleRequired": "Title is required.",
+        "dateRequired": "Date is required.",
+        "watchUrlRequired": "Watch link is required."
+      }
+    },
+    "errors": {
+      "internetRequired": "Internet connection required for Live Streaming.",
+      "notConfigured": "Live Stream has not been configured yet.",
+      "unableToOpen": "Unable to open Live Stream. Please try again.",
+      "generic": "Unable to load Live Darshan & Katha. Please try again."
+    }
+  }
+}

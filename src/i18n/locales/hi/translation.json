@@ -1,0 +1,390 @@
+{
+  "app": {
+    "name": "श्री स्वामिनारायण मंदिर",
+    "greeting": "जय स्वामिनारायण"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "offline": "आप ऑफ़लाइन हैं",
+    "retry": "पुनः प्रयास करें",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "save": "सहेजें",
+    "comingSoon": "यह भाग तैयार किया जा रहा है और जल्द ही उपलब्ध होगा।",
+    "soon": "जल्द ही",
+    "edit": "संपादित करें",
+    "delete": "हटाएं"
+  },
+  "welcome": {
+    "message": "स्वागत है। जारी रखने के लिए कृपया अपनी पसंदीदा भाषा चुनें।",
+    "selectLanguage": "भाषा चुनें",
+    "continue": "आगे बढ़ें"
+  },
+  "nav": {
+    "main": "मुख्य नेविगेशन",
+    "home": "होम",
+    "announcements": "सूचनाएं",
+    "gallery": "गैलरी",
+    "library": "लाइब्रेरी",
+    "more": "और"
+  },
+  "notFound": {
+    "title": "पेज नहीं मिला",
+    "message": "आप जिस पेज को खोज रहे हैं वह मौजूद नहीं है।",
+    "backHome": "होम पर वापस जाएं"
+  },
+  "settings": {
+    "changeLanguage": "भाषा बदलें",
+    "languageSectionHint": "अधिक सेटिंग्स जल्द ही उपलब्ध होंगी।",
+    "account": "खाता",
+    "editorLogin": "एडिटर लॉगिन",
+    "exitEditorMode": "एडिटर मोड से बाहर निकलें",
+    "changePin": "पिन बदलें",
+    "currentPinPrompt": "वर्तमान पिन दर्ज करें",
+    "newPinPrompt": "नया पिन दर्ज करें",
+    "logout": "लॉगआउट"
+  },
+  "registration": {
+    "title": "स्वागत है, भक्त",
+    "subtitle": "आपकी सदस्य आईडी बनाने के लिए कृपया अपना नाम बताएं।",
+    "nameLabel": "पूरा नाम",
+    "mobileLabel": "मोबाइल नंबर (वैकल्पिक)",
+    "mobileHint": "केवल संपर्क जानकारी के रूप में उपयोग किया जाता है। लॉगिन के लिए कभी उपयोग नहीं किया जाता।",
+    "preferredLanguageLabel": "पसंदीदा भाषा",
+    "preferredLanguageHint": "यह वह भाषा है जिसे आपने पिछली स्क्रीन पर चुना था। आप इसे बाद में कभी भी More > Change Language से बदल सकते हैं।",
+    "continue": "जारी रखें",
+    "errors": {
+      "nameRequired": "कृपया अपना नाम दर्ज करें।",
+      "generic": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+    }
+  },
+  "auth": {
+    "editorLoginTitle": "एडिटर लॉगिन",
+    "pinLabel": "पिन",
+    "login": "लॉगिन"
+  },
+  "memberManagement": {
+    "title": "सदस्य प्रबंधन",
+    "searchPlaceholder": "नाम, सदस्य आईडी या मोबाइल नंबर से खोजें",
+    "role": "भूमिका",
+    "status": "स्थिति",
+    "mobile": "मोबाइल नंबर",
+    "preferredLanguage": "पसंदीदा भाषा",
+    "notProvided": "उपलब्ध नहीं",
+    "activate": "सक्रिय करें",
+    "lock": "लॉक करें",
+    "suspend": "निलंबित करें",
+    "resetPin": "पिन रीसेट करें",
+    "privateNotes": "निजी टिप्पणियाँ (केवल आपको दिखाई देती हैं)",
+    "deleteMember": "सदस्य हटाएं",
+    "confirmDelete": "क्या आप वाकई इस सदस्य को हटाना चाहते हैं? यह पूर्ववत नहीं किया जा सकता।",
+    "roleChanged": "भूमिका अपडेट की गई।",
+    "roleChangedPinRequired": "भूमिका अपडेट की गई। नीचे इस एडिटर के लिए एक प्रारंभिक पिन सेट करें।",
+    "statusUpdated": "स्थिति अपडेट की गई।",
+    "notesSaved": "टिप्पणियाँ सहेजी गईं।",
+    "pinReset": "पिन सफलतापूर्वक रीसेट किया गया।",
+    "pinFormatError": "पिन 4 से 6 अंकों का होना चाहिए।",
+    "memberDeleted": "सदस्य हटा दिया गया।"
+  },
+  "auditLog": {
+    "title": "ऑडिट लॉग",
+    "searchPlaceholder": "गतिविधि या नाम से खोजें",
+    "search": "खोजें",
+    "empty": "कोई ऑडिट रिकॉर्ड नहीं मिला।",
+    "previousValue": "पहले",
+    "newValue": "बाद में"
+  },
+  "dashboard": {
+    "panchang": {
+      "title": "आज का पंचांग",
+      "unavailable": "पंचांग जानकारी जल्द ही उपलब्ध होगी।"
+    },
+    "darshan": {
+      "title": "दैनिक दर्शन",
+      "unavailable": "आज का दर्शन जल्द ही उपलब्ध होगा।"
+    },
+    "thal": {
+      "title": "आज का थाल",
+      "unavailable": "थाल जानकारी जल्द ही उपलब्ध होगी।",
+      "updated": "थाल अपडेट किया गया"
+    },
+    "liveDarshan": {
+      "title": "लाइव दर्शन",
+      "offlineStatus": "ऑफ़लाइन",
+      "liveStatus": "लाइव",
+      "unavailable": "लाइव दर्शन वर्तमान में अनुपलब्ध है"
+    },
+    "festival": {
+      "title": "त्योहार काउंटडाउन",
+      "unavailable": "त्योहार जानकारी जल्द ही उपलब्ध होगी।",
+      "daysRemaining": "दिन शेष"
+    },
+    "announcements": {
+      "empty": "अभी तक कोई सूचना नहीं है।",
+      "viewAll": "सभी देखें"
+    },
+    "sabha": {
+      "title": "आगामी सभा",
+      "unavailable": "कोई आगामी सभा निर्धारित नहीं है"
+    },
+    "quickActions": {
+      "title": "त्वरित कार्य",
+      "panchang": "पंचांग",
+      "festivalCalendar": "त्योहार कैलेंडर",
+      "contactTemple": "मंदिर से संपर्क करें",
+      "qrDonation": "QR दान"
+    }
+  },
+  "library": {
+    "subtitle": "पंचांग, निर्णय, प्रार्थना और धार्मिक साहित्य एक ही स्थान पर।",
+    "detail": {
+      "backToLibrary": "लाइब्रेरी पर वापस जाएं"
+    },
+    "categories": {
+      "panchang": {
+        "title": "ऑफिशियल वड़ताल पंचांग",
+        "description": "दैनिक और मासिक पंचांग"
+      },
+      "nirnay": {
+        "title": "ऑफिशियल वड़ताल निर्णय",
+        "description": "आधिकारिक धार्मिक निर्णय और मार्गदर्शन"
+      },
+      "aarti": {
+        "title": "आरती",
+        "description": "आरती का पाठ, ऑफ़लाइन उपलब्ध"
+      },
+      "nityaNiyam": {
+        "title": "नित्य नियम",
+        "description": "दैनिक धार्मिक नियम, ऑफ़लाइन उपलब्ध"
+      },
+      "kirtans": {
+        "title": "कीर्तन",
+        "description": "भक्ति गीतों के बोल"
+      },
+      "granths": {
+        "title": "ग्रंथ",
+        "description": "वचनामृत, शिक्षापत्री और अन्य ग्रंथ"
+      },
+      "stotraPrarthana": {
+        "title": "स्तोत्र और प्रार्थना",
+        "description": "सामान्यतः पढ़ी जाने वाली प्रार्थनाएं और स्तोत्र"
+      },
+      "ramKrishnaGovind": {
+        "title": "राम कृष्ण गोविंद",
+        "description": "राम कृष्ण गोविंद पाठ, ऑफ़लाइन उपलब्ध"
+      },
+      "janmangal": {
+        "title": "जन्मंगल",
+        "description": "जन्मंगल स्तोत्र और नामावली, ऑफ़लाइन उपलब्ध"
+      }
+    }
+  },
+  "gallery": {
+    "subtitle": "दैनिक दर्शन, त्योहार, सभा और आयोजनों की तस्वीरें।",
+    "searchPlaceholder": "एल्बम, त्योहार, कैप्शन खोजें...",
+    "searchResultsTitle": "खोज परिणाम",
+    "noSearchResults": "कोई मेल खाता एल्बम या फ़ोटो नहीं मिला।",
+    "categories": {
+      "dailyDarshan": {
+        "title": "दैनिक दर्शन",
+        "description": "आज की मंदिर दर्शन तस्वीर"
+      },
+      "festival": {
+        "title": "त्योहार एल्बम",
+        "description": "जन्माष्टमी, अन्नकूट और अन्य त्योहारों की तस्वीरें"
+      },
+      "sabha": {
+        "title": "सभा एल्बम",
+        "description": "साप्ताहिक सभा और आध्यात्मिक कार्यक्रमों की तस्वीरें"
+      },
+      "event": {
+        "title": "विशेष आयोजन",
+        "description": "सेवा, युवा गतिविधियों और अन्य मंदिर आयोजनों की तस्वीरें"
+      }
+    },
+    "noAlbums": "अभी तक कोई एल्बम नहीं है।",
+    "noPhotos": "इस एल्बम में अभी तक कोई तस्वीर नहीं है।",
+    "photoCountSuffix": "तस्वीरें",
+    "backToGallery": "गैलरी पर वापस",
+    "backToAlbums": "एल्बम पर वापस",
+    "uploadPhoto": "फ़ोटो अपलोड करें",
+    "createAlbum": "एल्बम बनाएं",
+    "albumNameLabel": "एल्बम का नाम",
+    "albumDateLabel": "तारीख (वैकल्पिक)",
+    "captionLabel": "कैप्शन (वैकल्पिक)",
+    "captionPlaceholder": "कैप्शन जोड़ें...",
+    "chooseFile": "फ़ोटो चुनें",
+    "uploading": "अपलोड हो रहा है...",
+    "optimizingImage": "छवि अनुकूलित की जा रही है...",
+    "uploadSuccess": "फ़ोटो अपलोड हो गई।",
+    "uploadFailed": "अपलोड विफल",
+    "retryUpload": "फिर से अपलोड करें",
+    "deletePhoto": "फ़ोटो हटाएं",
+    "confirmDeletePhoto": "इस फ़ोटो को हटाएं? इसे इस स्क्रीन से पूर्ववत नहीं किया जा सकता।",
+    "deleteAlbum": "एल्बम हटाएं",
+    "confirmDeleteAlbum": "इस एल्बम को हटाएं? अपलोड की गई तस्वीरें अब दिखाई नहीं देंगी।",
+    "renameAlbum": "एल्बम का नाम बदलें",
+    "archiveAlbum": "एल्बम आर्काइव करें",
+    "unarchiveAlbum": "एल्बम पुनर्स्थापित करें",
+    "manageAlbum": "एल्बम प्रबंधित करें",
+    "albumArchivedNotice": "यह एल्बम आर्काइव है और सामान्य गैलरी सूची से छिपा हुआ है।",
+    "confirmArchiveAlbum": "इस एल्बम को आर्काइव करें? यह अब सामान्य गैलरी सूची में दिखाई नहीं देगा।",
+    "confirmUnarchiveAlbum": "इस एल्बम को सामान्य गैलरी सूची में पुनर्स्थापित करें?",
+    "offlineUploadUnavailable": "फ़ोटो अपलोड करने के लिए इंटरनेट कनेक्शन आवश्यक है।",
+    "offlineNewContentUnavailable": "नई गैलरी सामग्री लोड करने के लिए इंटरनेट कनेक्शन आवश्यक है।",
+    "uploadedBy": "अपलोड करने वाला",
+    "close": "बंद करें",
+    "zoomIn": "ज़ूम इन",
+    "zoomOut": "ज़ूम आउट",
+    "previousPhoto": "पिछली तस्वीर",
+    "nextPhoto": "अगली तस्वीर",
+    "errors": {
+      "generic": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+      "fileTooLarge": "फ़ाइल अधिकतम 8 MB अपलोड सीमा से बड़ी है।",
+      "unsupportedFileType": "केवल JPEG और PNG इमेज समर्थित हैं।",
+      "albumNameRequired": "एल्बम का नाम आवश्यक है।"
+    }
+  },
+  "announcements": {
+    "categories": {
+      "all": "सभी",
+      "general": "सामान्य",
+      "festival": "त्योहार",
+      "mens": "पुरुष",
+      "ladies": "महिला",
+      "volunteer": "स्वयंसेवक",
+      "emergency": "आपातकालीन"
+    },
+    "priorities": {
+      "high": "उच्च",
+      "medium": "मध्यम",
+      "low": "निम्न"
+    },
+    "status": {
+      "scheduled": "निर्धारित",
+      "archived": "संग्रहीत"
+    },
+    "tabs": {
+      "active": "सक्रिय",
+      "archived": "संग्रह"
+    },
+    "createAnnouncement": "नई घोषणा",
+    "editAnnouncement": "घोषणा संपादित करें",
+    "searchPlaceholder": "घोषणाएं खोजें",
+    "noSearchResults": "आपकी खोज से कोई घोषणा नहीं मिली।",
+    "empty": "अभी तक कोई घोषणा नहीं है।",
+    "offlineNotice": "पहले देखी गई घोषणाएं दिखाई जा रही हैं। नई घोषणाओं के लिए इंटरनेट आवश्यक है।",
+    "backToAnnouncements": "घोषणाओं पर वापस जाएं",
+    "postedBy": "पोस्ट करने वाला",
+    "viewAttachment": "अटैचमेंट देखें",
+    "archive": "संग्रहित करें",
+    "restore": "पुनर्स्थापित करें",
+    "confirmArchive": "क्या इस घोषणा को संग्रहित करना है?",
+    "confirmRestore": "क्या इस घोषणा को पुनर्स्थापित करना है?",
+    "confirmDelete": "क्या इस घोषणा को हटाना है? इसे यहां से वापस नहीं लिया जा सकता।",
+    "fields": {
+      "category": "श्रेणी",
+      "title": "शीर्षक",
+      "description": "विवरण",
+      "priority": "प्राथमिकता",
+      "visibilityScope": "स्वयंसेवक समूह",
+      "visibilityScopePlaceholder": "जैसे रसोई सेवा स्वयंसेवक",
+      "publishAt": "प्रकाशन तिथि और समय",
+      "publishAtHint": "तुरंत प्रकाशित करने के लिए ऐसे ही रहने दें, या शेड्यूल करने के लिए भविष्य की तिथि/समय चुनें।",
+      "expiryDate": "समाप्ति तिथि और समय (वैकल्पिक)",
+      "externalLink": "बाहरी लिंक (वैकल्पिक)",
+      "attachment": "अटैचमेंट (छवि या PDF, वैकल्पिक)",
+      "attachmentHint": "JPEG, PNG, या PDF, अधिकतम 10 MB।"
+    },
+    "errors": {
+      "generic": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+      "titleRequired": "शीर्षक आवश्यक है।",
+      "descriptionRequired": "विवरण आवश्यक है।",
+      "notFound": "यह घोषणा नहीं मिल सकी।",
+      "attachmentType": "केवल JPEG, PNG, या PDF फ़ाइलें समर्थित हैं।",
+      "attachmentSize": "फ़ाइल अधिकतम अपलोड आकार 10 MB से अधिक है।"
+    }
+  },
+  "notifications": {
+    "title": "सूचनाएं",
+    "empty": "अभी तक कोई सूचना नहीं है.",
+    "offlineNotice": "पहले लोड की गई सूचनाएं दिखाई जा रही हैं. नई सूचनाओं के लिए इंटरनेट आवश्यक है.",
+    "bellAriaLabel": "सूचनाएं",
+    "bellAriaLabelUnread": "सूचनाएं, {count} अपठित",
+    "status": {
+      "read": "पढ़ी गई",
+      "unread": "अपठित"
+    },
+    "errors": {
+      "generic": "सूचनाएं लोड नहीं हो सकीं. कृपया पुनः प्रयास करें."
+    }
+  },
+  "liveDarshan": {
+    "title": "लाइव दर्शन और कथा",
+    "watchLive": "लाइव देखें",
+    "darshan": {
+      "title": "लाइव दर्शन",
+      "live": "लाइव",
+      "offline": "ऑफलाइन",
+      "unavailable": "लाइव दर्शन अभी उपलब्ध नहीं है."
+    },
+    "katha": {
+      "title": "लाइव कथा",
+      "liveNow": "अभी लाइव",
+      "notInProgress": "अभी कोई कथा नहीं चल रही है.",
+      "fields": {
+        "title": "कथा शीर्षक",
+        "speaker": "वक्ता",
+        "date": "तारीख",
+        "time": "समय"
+      }
+    },
+    "saturdayKatha": {
+      "title": "शनिवार कथा समय-सारणी",
+      "empty": "शनिवार कथा की समय-सारणी अभी निर्धारित नहीं की गई है.",
+      "fields": {
+        "day": "दिन",
+        "date": "तारीख",
+        "time": "समय",
+        "venue": "स्थान"
+      }
+    },
+    "archive": {
+      "title": "कथा आर्काइव",
+      "empty": "अभी तक कोई कथा रिकॉर्डिंग उपलब्ध नहीं है.",
+      "watch": "देखें",
+      "remove": "हटाएं",
+      "confirmRemove": "इस कथा आर्काइव प्रविष्टि को हटाएं? इसे पूर्ववत नहीं किया जा सकता.",
+      "fields": {
+        "title": "शीर्षक",
+        "date": "तारीख",
+        "speaker": "वक्ता (वैकल्पिक)",
+        "thumbnail": "थंबनेल URL (वैकल्पिक)",
+        "watchUrl": "देखने की लिंक"
+      }
+    },
+    "admin": {
+      "title": "प्रशासक विन्यास",
+      "configureDarshan": "लाइव दर्शन स्ट्रीम कॉन्फ़िगर करें",
+      "configureKatha": "लाइव कथा स्ट्रीम कॉन्फ़िगर करें",
+      "editSaturdaySchedule": "शनिवार कथा समय-सारणी संपादित करें",
+      "addArchiveEntry": "कथा आर्काइव प्रविष्टि जोड़ें",
+      "saved": "सफलतापूर्वक सहेजा गया.",
+      "fields": {
+        "streamUrl": "स्ट्रीम URL",
+        "markLive": "लाइव के रूप में चिह्नित करें"
+      },
+      "errors": {
+        "titleRequired": "शीर्षक आवश्यक है.",
+        "dateRequired": "तारीख आवश्यक है.",
+        "watchUrlRequired": "देखने की लिंक आवश्यक है."
+      }
+    },
+    "errors": {
+      "internetRequired": "लाइव स्ट्रीमिंग के लिए इंटरनेट कनेक्शन आवश्यक है.",
+      "notConfigured": "लाइव स्ट्रीम अभी तक कॉन्फ़िगर नहीं किया गया है.",
+      "unableToOpen": "लाइव स्ट्रीम खोलने में असमर्थ. कृपया पुनः प्रयास करें.",
+      "generic": "लाइव दर्शन और कथा लोड नहीं हो सका. कृपया पुनः प्रयास करें."
+    }
+  }
+}

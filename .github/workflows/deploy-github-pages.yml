@@ -1,0 +1,76 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          # 'cache: npm' requires a committed package-lock.json (see
+          # note below); omitted until one exists so this step doesn't
+          # fail before "Install dependencies" even runs.
+
+      # NOTE: no package-lock.json is committed to this repository yet,
+      # so `npm ci` (which requires one) would fail this step on every
+      # run. Using `npm install` here is the safe, immediate fix so CI
+      # is not permanently broken; committing a real package-lock.json
+      # (generated locally with `npm install`, on a machine with
+      # registry access) is a recommended follow-up so builds become
+      # reproducible and `cache: 'npm'` / `npm ci` can be restored.
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type-check
+        run: npm run type-check
+
+      # VITE_BASE_PATH must equal "/<repository-name>/" so built asset URLs
+      # resolve correctly under https://<user>.github.io/<repository-name>/
+      - name: Build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          VITE_APP_NAME: 'Shree Swaminarayan Mandir'
+          VITE_APP_ENV: production
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

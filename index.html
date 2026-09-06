@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="gu">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Task 12D Deep Security Audit — Referrer-Policy: GitHub Pages
+         cannot serve custom HTTP response headers (no server config in
+         this deployment target), so this is set via <meta> instead.
+         "strict-origin-when-cross-origin" is the browser default in
+         modern browsers already, but is pinned explicitly here so it
+         cannot silently regress; it never blocks navigation/requests,
+         so it carries no risk of breaking the app the way an untested
+         Content-Security-Policy could (see docs/... final report,
+         "Deployment / Security Headers" for the CSP discussion, which
+         is intentionally NOT added here without live testing). -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Mobile-first, installable-PWA viewport (SRS 24.18, TECH-003) -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover"
+    />
+
+    <title>Shree Swaminarayan Mandir</title>
+    <meta
+      name="description"
+      content="Official digital platform of Shree Swaminarayan Mandir, Vadtal — Daily Darshan, Panchang, Nirnay, Aarti, Kirtans, Granths, announcements and more."
+    />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#FF9933" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="SS Mandir" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192x192.png" />
+
+    <!-- Fonts (self-hosted, per ₹0-budget BUDGET-002; declared in globals.css) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
